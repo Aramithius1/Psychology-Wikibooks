@@ -155,3 +155,13 @@ Part IV: Web Design
   Ch. 50: Compatibility of web pages
 
 Congrats - you've just finished studying psychology!
+
+NB:
+✅ = LEARNING LINKS done
+✅✅ = CRITICAL + CREATIVE THINKING: Pre-Reading
+✅✅✅ = read the article first
+4✅ = read the article and taken full notes
+5✅ = summarised the notes
+6✅ = made flashcards
+7✅ = PRACTICE QUESTIONS
+8✅ = SKILLS CHECK
