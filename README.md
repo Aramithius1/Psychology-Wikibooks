@@ -7,20 +7,20 @@ T5: 0/26
 T6: 0/50
 
 Term 1: Cognitive Psychology and Cognitive Neuroscience
-  Ch. 1: Cognitive Psychology and the Brain 75% developed  as of May 27, 2006 ✅
-  Ch. 2: Problem Solving from an Evolutionary Perspective 100% developed  as of May 27, 2006
-  Ch. 3: Evolutionary Perspective on Social Cognitions 100% developed  as of May 27, 2006
-  Ch. 4: Behavioural and Neuroscience Methods 100% developed  as of May 27, 2006
-  Ch. 5: Motivation and Emotion 100% developed  as of May 27, 2006
-  Ch. 6:Memory 100% developed  as of May 27, 2006
-  Ch. 7: Memory and Language 100% developed  as of August 29, 2006
-  Ch. 8: Imagery 75% developed  as of May 27, 2006
-  Ch. 9: Comprehension 100% developed  as of May 27, 2006
-  Ch. 10: Neuroscience of Text Comprehension 100% developed  as of August , 2006
-  Ch. 11: Situation Models and Inferencing 100% developed  as of May 27, 2006
-  Ch. 12: Knowledge Representation and Hemispheric Specialisation 100% developed  as of May 27, 2006
-  Ch. 13: Reasoning and Decision Making 100% developed  as of May 27, 2006
-  Ch.14: Present and Future of Research 100% developed  as of May 27, 2006
+  Ch. 1: Cognitive Psychology and the Brain ✅
+  Ch. 2: Problem Solving from an Evolutionary Perspective 
+  Ch. 3: Evolutionary Perspective on Social Cognitions
+  Ch. 4: Behavioural and Neuroscience Methods 
+  Ch. 5: Motivation and Emotion 
+  Ch. 6:Memory 
+  Ch. 7: Memory and Language 
+  Ch. 8: Imagery 
+  Ch. 9: Comprehension 
+  Ch. 10: Neuroscience of Text Comprehension
+  Ch. 11: Situation Models and Inferencing
+  Ch. 12: Knowledge Representation and Hemispheric Specialisation
+  Ch. 13: Reasoning and Decision Making 
+  Ch.14: Present and Future of Research
   
 Term 2: Consciousness Studies
   i. Introduction
