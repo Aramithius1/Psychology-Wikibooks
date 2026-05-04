@@ -6,7 +6,7 @@ T4: 0/3
 T5: 0/26
 T6: 0/50
 
-Term 1: Cognitive Psychology and Cognitive Neuroscience
+Term 1: Cognitive Psychology and Cognitive Neuroscience\n
   Ch. 1: Cognitive Psychology and the Brain ✅
   Ch. 2: Problem Solving from an Evolutionary Perspective 
   Ch. 3: Evolutionary Perspective on Social Cognitions
