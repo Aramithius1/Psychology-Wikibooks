@@ -1,0 +1,136 @@
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@400;600&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Source Sans 3',sans-serif;background:var(--color-background-primary);color:var(--color-text-primary)}
+.page{max-width:720px;margin:0 auto;padding:2rem 2rem 3rem}
+.header{border-bottom:2.5px solid var(--color-text-primary);padding-bottom:0.75rem;margin-bottom:1.75rem}
+.title{font-family:'Libre Baskerville',serif;font-size:22px;font-weight:700;letter-spacing:-0.3px}
+.subtitle{font-size:13px;color:var(--color-text-secondary);margin-top:4px}
+.section{margin-bottom:1.75rem}
+.section-header{display:flex;align-items:center;gap:10px;margin-bottom:0.75rem;padding-bottom:4px;border-bottom:1px solid var(--color-border-secondary)}
+.section-tag{font-size:10px;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;padding:3px 8px;border-radius:3px;white-space:nowrap}
+.tag-link{background:#E6F1FB;color:#0C447C}
+.tag-think{background:#EEEDFE;color:#3C3489}
+.tag-practice{background:#E1F5EE;color:#085041}
+.tag-enrich{background:#FAEEDA;color:#633806}
+.tag-skills{background:#FCEBEB;color:#791F1F}
+.section-title{font-family:'Libre Baskerville',serif;font-size:15px;font-weight:700}
+.subsection{margin-bottom:1rem}
+.subsection-label{font-size:11px;font-weight:600;letter-spacing:0.8px;text-transform:uppercase;color:var(--color-text-secondary);margin-bottom:0.5rem}
+ol,ul{padding-left:1.4rem}
+li{font-size:14px;line-height:1.75;color:var(--color-text-primary)}
+li+li{margin-top:2px}
+.q-list{list-style:none;padding-left:0;counter-reset:qcount}
+.q-list li{counter-increment:qcount;padding-left:1.8rem;position:relative}
+.q-list li::before{content:counter(qcount)'.';position:absolute;left:0;color:var(--color-text-secondary);font-size:13px;font-weight:600;top:1px}
+.answer-line{display:block;border-bottom:0.5px solid var(--color-border-tertiary);margin:4px 0 10px 0;height:16px}
+.fill-blank{display:inline-block;border-bottom:1px solid var(--color-text-primary);min-width:100px;margin:0 2px}
+.tf-badge{display:inline-block;border:0.5px solid var(--color-border-secondary);border-radius:3px;padding:0 6px;font-size:11px;font-weight:600;margin-right:4px;color:var(--color-text-secondary)}
+.skills-item{font-size:14px;line-height:1.75;padding:6px 0;border-bottom:0.5px solid var(--color-border-tertiary);display:flex;gap:8px;align-items:flex-start}
+.skills-item:last-child{border-bottom:none}
+.q-num{font-weight:600;color:var(--color-text-secondary);font-size:13px;min-width:18px}
+.optional-note{font-size:12px;font-style:italic;color:var(--color-text-secondary);margin-bottom:0.6rem}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:0 2rem}
+@media print{
+  .page{padding:1.5rem 1.5rem 2rem}
+  body{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+</style>
+
+<div class="page">
+  <div class="header">
+    <div class="title">T1 Ch2 — Problem Solving</div>
+    <div class="subtitle">Practice Exam &nbsp;|&nbsp; Name: <span style="display:inline-block;border-bottom:0.5px solid var(--color-border-secondary);min-width:180px;margin-left:4px">&nbsp;</span> &nbsp;|&nbsp; Date: <span style="display:inline-block;border-bottom:0.5px solid var(--color-border-secondary);min-width:120px;margin-left:4px">&nbsp;</span></div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <span class="section-tag tag-link">Learning Links</span>
+      <span class="section-title">Pre-Knowledge</span>
+    </div>
+    <ol class="q-list">
+      <li>What is a "problem" in everyday life?<span class="answer-line"></span></li>
+      <li>Name 2 ways people might try to solve problems.<span class="answer-line"></span><span class="answer-line"></span></li>
+      <li>What do you think "insight" means?<span class="answer-line"></span></li>
+      <li>Can past experience ever make solving a problem harder? How?<span class="answer-line"></span><span class="answer-line"></span></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <span class="section-tag tag-think">Critical + Creative</span>
+      <span class="section-title">Thinking Questions</span>
+    </div>
+    <ol class="q-list">
+      <li>Think of a time you were stuck on something. What made it hard?<span class="answer-line"></span><span class="answer-line"></span></li>
+      <li>Why might someone else solve the same problem faster than you?<span class="answer-line"></span></li>
+      <li>Have you ever had a sudden "aha" moment? What was it like?<span class="answer-line"></span><span class="answer-line"></span></li>
+      <li>When could thinking creatively be better than following steps?<span class="answer-line"></span><span class="answer-line"></span></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <span class="section-tag tag-practice">Practice Questions</span>
+      <span class="section-title">Understanding &amp; Fluency</span>
+    </div>
+    <div class="two-col">
+      <ol class="q-list">
+        <li>Define a problem.<span class="answer-line"></span></li>
+        <li>Difference between well-defined and ill-defined problems.<span class="answer-line"></span><span class="answer-line"></span></li>
+        <li>What is problem representation?<span class="answer-line"></span></li>
+        <li>What is insight?<span class="answer-line"></span></li>
+        <li>Define fixation.<span class="answer-line"></span></li>
+      </ol>
+      <ol class="q-list" style="counter-reset:qcount 5">
+        <li>What is functional fixedness?<span class="answer-line"></span></li>
+        <li>What is a mental set?<span class="answer-line"></span></li>
+        <li>Explain means-end analysis.<span class="answer-line"></span><span class="answer-line"></span></li>
+        <li>What is trial and error?<span class="answer-line"></span></li>
+        <li>Define divergent vs convergent thinking.<span class="answer-line"></span><span class="answer-line"></span></li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <span class="section-tag tag-practice">Practice Questions</span>
+      <span class="section-title">Reasoning &amp; Application</span>
+    </div>
+    <ol class="q-list">
+      <li>Give one example of a well-defined and one ill-defined problem.<span class="answer-line"></span><span class="answer-line"></span></li>
+      <li>Why can fixation make problems harder to solve?<span class="answer-line"></span></li>
+      <li>How does changing how you represent a problem help solve it?<span class="answer-line"></span><span class="answer-line"></span></li>
+      <li>Why are insight solutions hard to predict?<span class="answer-line"></span></li>
+      <li>Explain how means-end analysis could help with studying for exams.<span class="answer-line"></span><span class="answer-line"></span></li>
+      <li>Why might an expert solve a problem faster than a beginner?<span class="answer-line"></span></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <span class="section-tag tag-enrich">Enrichment</span>
+      <span class="section-title">Optional — but interesting</span>
+    </div>
+    <p class="optional-note">Challenge yourself — these questions have no single right answer.</p>
+    <ol class="q-list">
+      <li>How do AI systems (like chatbots) use problem-solving strategies similar to humans?<span class="answer-line"></span><span class="answer-line"></span></li>
+      <li>Do you think creativity is just "divergent thinking," or something more? Explain.<span class="answer-line"></span><span class="answer-line"></span></li>
+      <li>Design a simple experiment to test insight (e.g., giving people puzzles).<span class="answer-line"></span><span class="answer-line"></span></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <span class="section-tag tag-skills">Skills Check</span>
+      <span class="section-title">Quick Test</span>
+    </div>
+    <div class="skills-item"><span class="q-num">1.</span><span>A problem has a clear start, rules, and goal → it is called a <span class="fill-blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> problem.</span></div>
+    <div class="skills-item"><span class="q-num">2.</span><span>Using an object in a new way is difficult because of <span class="fill-blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.</span></div>
+    <div class="skills-item"><span class="q-num">3.</span><span>Sudden realisation of a solution = <span class="fill-blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.</span></div>
+    <div class="skills-item"><span class="q-num">4.</span><span>Breaking a problem into smaller steps = <span class="fill-blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.</span></div>
+    <div class="skills-item"><span class="q-num">5.</span><span>Generating many possible ideas = <span class="fill-blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> thinking.</span></div>
+    <div class="skills-item"><span class="q-num">6.</span><span><span class="tf-badge">T</span><span class="tf-badge">F</span> Experts are always better at all problems. Circle one and explain: <span class="fill-blank" style="min-width:200px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.</span></div>
+  </div>
+</div>
