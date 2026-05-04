@@ -1,0 +1,139 @@
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@400;600&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Source Sans 3',sans-serif;background:var(--color-background-primary);color:var(--color-text-primary)}
+.page{max-width:720px;margin:0 auto;padding:2rem 2rem 3rem}
+.header{border-bottom:2.5px solid var(--color-text-primary);padding-bottom:0.75rem;margin-bottom:1.75rem}
+.title{font-family:'Libre Baskerville',serif;font-size:22px;font-weight:700;letter-spacing:-0.3px}
+.subtitle{font-size:13px;color:var(--color-text-secondary);margin-top:4px}
+.section{margin-bottom:1.75rem}
+.section-header{display:flex;align-items:center;gap:10px;margin-bottom:0.75rem;padding-bottom:4px;border-bottom:1px solid var(--color-border-secondary)}
+.section-tag{font-size:10px;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;padding:3px 8px;border-radius:3px;white-space:nowrap}
+.tag-link{background:#E6F1FB;color:#0C447C}
+.tag-think{background:#EEEDFE;color:#3C3489}
+.tag-practice{background:#E1F5EE;color:#085041}
+.tag-enrich{background:#FAEEDA;color:#633806}
+.tag-skills{background:#FCEBEB;color:#791F1F}
+.section-title{font-family:'Libre Baskerville',serif;font-size:15px;font-weight:700}
+.optional-note{font-size:12px;font-style:italic;color:var(--color-text-secondary);margin-bottom:0.6rem}
+ol.q-list{list-style:none;padding-left:0;counter-reset:qcount}
+ol.q-list li{counter-increment:qcount;padding-left:1.8rem;position:relative;font-size:14px;line-height:1.75}
+ol.q-list li+li{margin-top:2px}
+ol.q-list li::before{content:counter(qcount)'.';position:absolute;left:0;color:var(--color-text-secondary);font-size:13px;font-weight:600;top:1px}
+.answer-line{display:block;border-bottom:0.5px solid var(--color-border-tertiary);margin:4px 0 10px 0;height:16px}
+.fill-blank{display:inline-block;border-bottom:1px solid var(--color-text-primary);min-width:110px;margin:0 2px}
+.tf-badge{display:inline-block;border:0.5px solid var(--color-border-secondary);border-radius:3px;padding:0 6px;font-size:11px;font-weight:600;margin-right:4px;color:var(--color-text-secondary)}
+.skills-item{font-size:14px;line-height:1.75;padding:6px 0;border-bottom:0.5px solid var(--color-border-tertiary);display:flex;gap:8px;align-items:flex-start}
+.skills-item:last-child{border-bottom:none}
+.q-num{font-weight:600;color:var(--color-text-secondary);font-size:13px;min-width:18px}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:0 2rem}
+@media print{
+  .page{padding:1.5rem 1.5rem 2rem}
+  body{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+</style>
+
+<div class="page">
+  <div class="header">
+    <div class="title">T1 Ch4 — Behavioural &amp; Neuroscience Methods</div>
+    <div class="subtitle">Practice Exam &nbsp;|&nbsp; Name: <span style="display:inline-block;border-bottom:0.5px solid var(--color-border-secondary);min-width:180px;margin-left:4px">&nbsp;</span> &nbsp;|&nbsp; Date: <span style="display:inline-block;border-bottom:0.5px solid var(--color-border-secondary);min-width:120px;margin-left:4px">&nbsp;</span></div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <span class="section-tag tag-link">Learning Links</span>
+      <span class="section-title">Pre-Knowledge</span>
+    </div>
+    <ol class="q-list">
+      <li>How could scientists study the brain without cutting it open?<span class="answer-line"></span></li>
+      <li>What's the difference between measuring brain activity vs behaviour?<span class="answer-line"></span><span class="answer-line"></span></li>
+      <li>Why might studying brain damage be useful?<span class="answer-line"></span></li>
+      <li>What do you think "brain imaging" means?<span class="answer-line"></span></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <span class="section-tag tag-think">Critical + Creative</span>
+      <span class="section-title">Thinking Questions</span>
+    </div>
+    <ol class="q-list">
+      <li>If you wanted to study memory, would you look at behaviour, the brain, or both? Why?<span class="answer-line"></span><span class="answer-line"></span></li>
+      <li>What are the risks of studying the brain directly?<span class="answer-line"></span></li>
+      <li>Why might no single method fully explain cognition?<span class="answer-line"></span><span class="answer-line"></span></li>
+      <li>Would you trust brain scans more than behaviour? Explain.<span class="answer-line"></span><span class="answer-line"></span></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <span class="section-tag tag-practice">Practice Questions</span>
+      <span class="section-title">Understanding &amp; Fluency</span>
+    </div>
+    <div class="two-col">
+      <ol class="q-list">
+        <li>What is the lesion method?<span class="answer-line"></span></li>
+        <li>What is a double dissociation?<span class="answer-line"></span></li>
+        <li>Difference between CAT (CT) and MRI.<span class="answer-line"></span><span class="answer-line"></span></li>
+        <li>What does fMRI measure?<span class="answer-line"></span></li>
+        <li>What does PET measure?<span class="answer-line"></span></li>
+        <li>EEG measures <span class="fill-blank" style="min-width:60px">&nbsp;</span> activity.<span class="answer-line" style="margin-top:8px"></span></li>
+        <li>Compare EEG vs fMRI (temporal vs spatial resolution).<span class="answer-line"></span><span class="answer-line"></span></li>
+        <li>What is an ERP?<span class="answer-line"></span></li>
+      </ol>
+      <ol class="q-list" style="counter-reset:qcount 8">
+        <li>What is MEG?<span class="answer-line"></span></li>
+        <li>What is TMS used for?<span class="answer-line"></span></li>
+        <li>What is tDCS?<span class="answer-line"></span></li>
+        <li>What are behavioural methods?<span class="answer-line"></span></li>
+        <li>What is a test battery?<span class="answer-line"></span></li>
+        <li>What does eye-tracking measure?<span class="answer-line"></span></li>
+        <li>What are neural networks in modelling?<span class="answer-line"></span><span class="answer-line"></span></li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <span class="section-tag tag-practice">Practice Questions</span>
+      <span class="section-title">Reasoning &amp; Application</span>
+    </div>
+    <ol class="q-list">
+      <li>Why are lesion studies useful but limited?<span class="answer-line"></span></li>
+      <li>How does Broca's vs Wernicke's aphasia show localisation of function?<span class="answer-line"></span><span class="answer-line"></span></li>
+      <li>Why would you use EEG instead of fMRI in some experiments?<span class="answer-line"></span></li>
+      <li>Why is fMRI good for "where" but not "when"?<span class="answer-line"></span><span class="answer-line"></span></li>
+      <li>How does TMS help show causation, not just correlation?<span class="answer-line"></span></li>
+      <li>Give one situation where behavioural data is more useful than brain imaging.<span class="answer-line"></span></li>
+      <li>Why combine multiple methods in research?<span class="answer-line"></span><span class="answer-line"></span></li>
+      <li>How do neural networks help psychologists test theories?<span class="answer-line"></span></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <span class="section-tag tag-enrich">Enrichment</span>
+      <span class="section-title">Optional — but interesting</span>
+    </div>
+    <p class="optional-note">Challenge yourself — these questions have no single right answer.</p>
+    <ol class="q-list">
+      <li>Would you prefer a brain scan or behavioural test to diagnose a disorder? Why?<span class="answer-line"></span><span class="answer-line"></span></li>
+      <li>Research one modern use of brain stimulation (e.g., depression treatment).<span class="answer-line"></span><span class="answer-line"></span></li>
+      <li>Design a simple experiment using eye-tracking or EEG.<span class="answer-line"></span><span class="answer-line"></span></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <span class="section-tag tag-skills">Skills Check</span>
+      <span class="section-title">Quick Test</span>
+    </div>
+    <div class="skills-item"><span class="q-num">1.</span><span>Studying brain damage to understand function = <span class="fill-blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.</span></div>
+    <div class="skills-item"><span class="q-num">2.</span><span>"Where in the brain?" → best answered by <span class="fill-blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.</span></div>
+    <div class="skills-item"><span class="q-num">3.</span><span>"When in time?" → best answered by <span class="fill-blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.</span></div>
+    <div class="skills-item"><span class="q-num">4.</span><span>Temporarily disrupting brain activity = <span class="fill-blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.</span></div>
+    <div class="skills-item"><span class="q-num">5.</span><span>Measuring eye movements = <span class="fill-blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.</span></div>
+    <div class="skills-item"><span class="q-num">6.</span><span><span class="tf-badge">T</span><span class="tf-badge">F</span> One method alone can fully explain cognition. Circle one and explain: <span class="fill-blank" style="min-width:160px">&nbsp;</span>.</span></div>
+  </div>
+</div>
